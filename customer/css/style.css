@@ -1,0 +1,527 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #606060;
+  margin: 0 0 15px;
+}
+
+p {
+  color: #606060;
+  font-size: 14pt;
+}
+
+label {
+  color: #606060;
+  font-size: 12pt;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: #91ccd2;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #bccad6;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.homepage-image img {
+  width: 1024px;
+  height: 576px;
+}
+
+/* Header */
+.header-area {
+  background: none repeat scroll 0 0 #f0f0f0;
+}
+
+.header-area a {
+  color: #707070;
+}
+
+.user-menu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-menu li {
+  display: inline-block;
+}
+
+.user-menu li a {
+  display: block;
+  font-size: 13px;
+  margin-right: 8px;
+  padding: 10px;
+}
+
+.user-menu li a i.fa {
+  margin-right: 5px;
+}
+
+.mainmenu-area {
+  background: none repeat scroll 0 0 #f0f0f0;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo h1 {
+  font-size: 30px;
+  margin: 30px 0;
+  font-weight: 400;
+}
+
+.logo h1 a {
+  color: #999;
+}
+
+.logo h1 a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.logo h1 a span {
+  color: #bccad6;
+}
+
+.mainmenu-area ul.navbar-nav li a {
+  color: #606060;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.mainmenu-area ul.navbar-nav a:hover {
+  background: #bccad6;
+  color: #fff;
+}
+
+.dropdown-toggle {
+  white-space: nowrap;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #fff;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+/* Footer */
+.footer-top-area {
+  background: none repeat scroll 0 0 #43464b;
+  color: #999;
+  padding: 40px 0 60px;
+}
+
+.footer-about-us h2 {
+  font-weight: 200;
+}
+
+.footer-menu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu ul li {
+  border-bottom: 1px dashed #555;
+  padding: 5px 0;
+}
+
+.footer-menu a {
+  display: block;
+  padding: 5px 0;
+  color: #999;
+}
+
+.footer-wid-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
+}
+
+/* Slider */
+.slider-area {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.block-slider {
+  border: none;
+  width: 100%;
+}
+
+.block-slider .bx-prev,
+.block-slider .bx-next {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #bccad6;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 29px;
+  -moz-transition: all 0.45s ease;
+  -webkit-transition: all 0.45s ease;
+  -o-transition: all 0.45s ease;
+  -ms-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.block-slider img {
+  width: 100%;
+  height: auto;
+}
+
+.block-slider .bx-prev {
+  left: 0px;
+  padding-right: 3px;
+}
+
+.block-slider .bx-next {
+  right: 0px;
+  padding-left: 3px;
+}
+
+.block-slider:hover .bx-prev {
+  left: 30px;
+}
+
+.block-slider:hover .bx-next {
+  right: 30px;
+}
+
+.block-slider .bx-prev:hover,
+.block-slider .bx-next:hover {
+  color: #fff;
+  background: #bccad6;
+  border-color: #bccad6;
+}
+
+.block-slider .bx-pager {
+  display: block;
+  text-align: center;
+}
+
+.block-slider .bx-pager-item {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  font-size: 0;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.block-slider .bx-pager-item a {
+  width: 100%;
+  height: 100%;
+  background: #bccad6;
+  display: block;
+  border-radius: 50%;
+}
+
+.block-slider .bx-pager-item a.active {
+  background: #91ccd2;
+}
+
+.block-slider .caption-group {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+
+.button-radius {
+  position: relative;
+  border: 1px solid #bccad6;
+  padding: 1px;
+  min-height: 34px;
+  background: #fff;
+  display: inline-block;
+  width: auto;
+  line-height: 30px;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin: 0;
+  color: #606060;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 10px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.button-radius .icon {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  overflow: hidden;
+}
+
+.button-radius .icon:before {
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-size: 14px;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  background-color: #91ccd2;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 26px;
+  float: left;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.button-radius:hover .icon {
+  left: 100%;
+  margin-left: -30px;
+}
+
+.button-radius:hover {
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+/* Single Book */
+.single-product-area {
+  padding: 80px 0 130px;
+}
+
+.single-shop-product {
+  margin-bottom: 80px;
+}
+
+.product-tab {
+  border-bottom: 1px solid #cccccc;
+  list-style: outside none none;
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.product-tab li {
+  display: inline-block;
+}
+
+.product-tab li.active {
+  font-weight: bold;
+  background: none repeat scroll 0 0 #bccad6;
+}
+
+.product-tab li.active a {
+  color: #ffffff;
+}
+
+.product-tab li a {
+  color: #91ccd2;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.product-tab li a:hover {
+  text-decoration: none;
+}
+
+.product-tab li a:focus {
+  text-decoration: none;
+}
+
+.tab-content h2 {
+  font-size: 20px;
+}
+
+.tab-content {
+  margin-bottom: 30px;
+}
+
+.rating-wrap-post {
+  font-size: 20px;
+}
+
+/* Rounded Box */
+.rounded-input-box {
+  border-radius: 10px;
+}
+
+.rounded-box {
+  background-color: #fff;
+  border-radius: 25px;
+  -webkit-box-shadow: 8px -3px 40px 10px rgba(170, 170, 170, 0.35);
+  box-shadow: 8px -3px 40px 10px rgba(170, 170, 170, 0.35);
+  padding: 30px;
+}
+
+.book-rounded-box {
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 8px -3px 40px 10px rgba(170, 170, 170, 0.35);
+  box-shadow: 8px -3px 40px 10px rgba(170, 170, 170, 0.35);
+  padding: 20px;
+}
+
+/* Book */
+.book-title {
+  color: #67c2cc;
+}
+
+.book-title-container {
+  width: 200px;
+  height: 100px;
+}
+
+.book-price {
+  color: #c37e4c;
+}
+
+.book-category {
+  background: #bccad6;
+  color: #fff;
+}
+
+.star-container {
+  width: 200px;
+  display: flex;
+}
+
+.star-container .star input {
+  display: none;
+}
+
+.star label {
+  font-size: 30px;
+  color: #c5c5c5;
+  float: right;
+  padding: 2px;
+  transition: all 0.3 s ease;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+  color: #fdd023;
+}
+
+input:checked ~ label {
+  color: #fdd023;
+}
+
+/* Frequently Asked Questions */
+.faq-question {
+  color: #79a1c4;
+  text-align: justify;
+}
+
+.faq-answer {
+  color: #67c2cc;
+  text-align: justify;
+}
+
+/* Margin */
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.mr-3 {
+  margin-right: 3rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.mr-5 {
+  margin-right: 5rem;
+}
+
+/*Logout Button*/
+.btn-no-border {
+  color: #707070;
+  border: none;
+}
