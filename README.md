@@ -46,6 +46,9 @@ The Book Republic Online Bookstore System is a web application developed using H
 <img src="images/manage_customer_order_1.png" width="640px" alt="Manage Customer Order 1">
 <img src="images/manage_customer_order_2.png" width="640px" alt="Manage Customer Order 2">
 
+#### Report
+<img src="images/stock_purchase_report.png" width="640px" alt="Stock Purchase Report">
+
 <br>
 
 ### Customer
@@ -65,3 +68,9 @@ The Book Republic Online Bookstore System is a web application developed using H
 
 #### Orders
 <img src="images/orders.png" width="640px" alt="Orders">
+
+#### FAQ
+<img src="images/faq.png" width="640px" alt="FAQ">
+
+#### Order Receipt
+<img src="images/customer_order_receipt.png" width="640px" alt="Customer Order Receipt">
