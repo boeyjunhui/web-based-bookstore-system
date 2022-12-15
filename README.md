@@ -1,5 +1,5 @@
-# Online Bookstore System
-The Book Republic Online Bookstore System is a web application developed using HTML, CSS, JavaScript, PHP, and MySQL.
+# Web-Based Bookstore System
+The Book Republic Web-Based Bookstore System is a web application developed using HTML, CSS, JavaScript, PHP, and MySQL.
 
 <br>
 
